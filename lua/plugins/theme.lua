@@ -1,10 +1,6 @@
 return {
-	{
-		"Mofiqul/vscode.nvim",
-	},
-	{
-		"nyoom-engineering/oxocarbon.nvim",
-	},
+	{ "Mofiqul/vscode.nvim", },
+	{ "nyoom-engineering/oxocarbon.nvim", },
 	{
 		"eldritch-theme/eldritch.nvim",
 		lazy = false,
