@@ -1,6 +1,23 @@
 # Neovim (AstroNvim) config
 
-## 🛠️ Installation
+## 🛠️ Neovim Installation
+Linux
+NOTE:
+> [!WARNING]
+> This may not work (particularly the echo command to add to path). Untested for now.
+```shell
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+sudo rm -rf /opt/nvim
+sudo tar -C /opt -xzf nvim-linux64.tar.gz
+sudo echo 'export PATH=$PATH:/opt/nvim-linux64/bin' | tee -a ~/.bashrc
+source ~/.bashrc
+```
+Windows
+```powershell
+https://github.com/neovim/neovim/releases/latest/download/nvim-win64.msi
+```
+
+## 🛠️ Config Installation
 
 #### Make a backup of your current nvim and shared folder
 
@@ -29,6 +46,19 @@ Windows (PowerShell)
 ```pwsh
 git clone https://github.com/ibanks42/nvim-config $env:LOCALAPPDATA\nvim
 ```
+
+#### Install fonts (optional)
+Linux/MacOS: Go to
+```shell
+~/.config/nvim/fonts
+```
+and install fonts from there
+
+Windows
+```shell
+%localappdata%\nvim\fonts
+```
+and install fonts from there
 
 #### Start Neovim
 
