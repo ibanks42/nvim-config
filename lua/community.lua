@@ -12,7 +12,14 @@ return {
 
   { import = "astrocommunity.terminal-integration.toggleterm-manager-nvim" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+
+  { import = "astrocommunity.project.projectmgr-nvim" },
+
+  { import = "astrocommunity.editing-support.nvim-treesitter-context" },
+  { import = "astrocommunity.motion.leap-nvim" },
+
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.zig" },

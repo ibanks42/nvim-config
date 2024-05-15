@@ -11,7 +11,7 @@ return {
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    colorscheme = "vscode",
+    colorscheme = "leya",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     color_overrides = {
       vscBack = "#FFFFFF",
