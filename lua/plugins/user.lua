@@ -6,7 +6,12 @@
 ---@type LazySpec
 return {
   -- == Examples of Overriding Plugins ==
-
+  {
+    "ayu-theme/ayu-vim",
+  },
+  {
+    "Mofiqul/vscode.nvim",
+  },
   -- customize alpha options
   {
     "goolord/alpha-nvim",
