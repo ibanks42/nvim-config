@@ -2,7 +2,9 @@
 
 ## 🛠️ Neovim Installation
 Linux
-NOTE: This may not work (particularly the echo command to add to path). Untested for now.
+NOTE:
+> [!WARNING]
+> This may not work (particularly the echo command to add to path). Untested for now.
 ```shell
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
 sudo rm -rf /opt/nvim
