@@ -30,6 +30,19 @@ Windows (PowerShell)
 git clone https://github.com/ibanks42/nvim-config $env:LOCALAPPDATA\nvim
 ```
 
+#### Install fonts (optional)
+Linux/MacOS: Go to
+```shell
+~/.config/nvim/fonts
+```
+and install fonts from there
+
+Windows
+```shell
+%localappdata%\nvim\fonts
+```
+and install fonts from there
+
 #### Start Neovim
 
 ```shell
