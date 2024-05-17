@@ -1,18 +1,11 @@
 ---@type LazySpec
 return {
   -- == Examples of Overriding Plugins ==
-  {
-    "ayu-theme/ayu-vim",
-  },
-  {
-    "Mofiqul/vscode.nvim",
-  },
-  {
-    "sonph/onehalf",
-  },
-  {
-    "marlun/vim-starwars",
-  },
+  { "ayu-theme/ayu-vim" },
+  { "rose-pine/neovim", name = "rose-pine" },
+  { "Mofiqul/vscode.nvim" },
+  { "sonph/onehalf" },
+  { "marlun/vim-starwars" },
   -- customize alpha options
   {
     "goolord/alpha-nvim",
@@ -57,5 +50,9 @@ return {
       }
       return opts
     end,
+  },
+  -- project manager
+  {
+    "Shatur/neovim-session-manager",
   },
 }
