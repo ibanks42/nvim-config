@@ -1,3 +1,5 @@
+if vim.g.vscode then return {} end
+
 return {
   { import = "astrocommunity.completion.copilot-lua" },
   {

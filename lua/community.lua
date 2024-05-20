@@ -1,3 +1,7 @@
+if vim.g.vscode then return {
+  "astrocommunity.motion.leap-nvim",
+} end
+
 -- AstroCommunity: import any community modules here
 -- We import this file in `lazy_setup.lua` before the `plugins/` folder.
 -- This guarantees that the specs are processed before any user plugins.
